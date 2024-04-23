@@ -5,23 +5,23 @@ This is the development of an AI customer support services landing page, which I
 ## Table of contents
 
 - [Links](#links)
-- [Built with](#built-with)
+<!-- - [Built with](#built-with) -->
 - [Author](#author)
 
 ### Links
 - Live site URL: https://ojayii.github.io/ada-landing-page/
-- Source URL: N/A
+<!-- - Source URL: N/A -->
 
 ### Built with
 
-/* 
+<!-- 
 - Semantic HTML5 markup
 - SCSS
 - Javascript
 - Developer tools
 - CSS clamp() function
 - Mobile-first workflow
-*/
+-->
 
 ## Author
 
