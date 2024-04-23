@@ -12,9 +12,9 @@ This is the development of an AI customer support services landing page, which I
 - Live site URL: https://ojayii.github.io/ada-landing-page/
 <!-- - Source URL: N/A -->
 
+<!-- 
 ### Built with
 
-<!-- 
 - Semantic HTML5 markup
 - SCSS
 - Javascript
