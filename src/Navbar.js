@@ -1,48 +1,58 @@
 import "./styles/Navbar.css";
 import { Link } from "react-router-dom";
-import Pricing from "./pages/Pricing";
-import GetDemo from "./pages/GetDemo";
 import testImg from "./testImg.svg";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>
+    <nav className='navbar'>
+      <div className='navbar__logo-container'>
         <img
           src={testImg}
-          alt='yooo'
+          alt=''
         />
         <p>ada</p>
       </div>
-      <span>
-        <Link to='/pricing'>Pricing</Link>
-      </span>
-      <div className='nav-links'>
-        <div>
-          <button>
+      <div className='navbar__nav-links '>
+        <Link
+          to='/pricing'
+          className='nav-links__link'>
+          Pricing
+        </Link>
+        <span></span>
+        <div className='nav-links__menu-wrapper' >
+          <button
+            type='button'
+            className='nav-links__link flex'>
             <p>Platform</p>
             <img src='' />
           </button>
-          <div></div>
+          <div className='nav-menu'></div>
         </div>
-        <div>
-          <button>
-            <p>Platform</p>
+        <div className='nav-links__menu-wrapper' >
+          <button
+            type='button'
+            className='nav-links__link flex'>
+            <p>Solutions</p>
             <img src='' />
           </button>
-          <div></div>
+          <div className='nav-menu'></div>
         </div>
-        <div>
-          <button>
-            <p>Platform</p>
+        <div className='nav-links__menu-wrapper' >
+          <button
+            type='button'
+            className='nav-links__link flex'>
+            <p>Resources</p>
             <img src='' />
           </button>
-          <div></div>
+          <div className='nav-menu'></div>
         </div>
       </div>
-      <span>
-        <Link to='/getDemo'>Get a Demo</Link>
-      </span>
+      <Link
+        to='/getDemo'
+        className='navbar__get-demo-btn'>
+        Get a Demo
+      </Link>
+      {/* <span className='navbar__get-demo-btn'></span> */}
     </nav>
   );
 };

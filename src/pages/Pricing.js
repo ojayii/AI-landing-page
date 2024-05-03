@@ -1,9 +1,16 @@
+import Navbar from '../Navbar'
+import Footer from '../Footer'
+
 const Pricing = () => {
-    return (
-        <>
-         <h1>These are prices.</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <h1>
+        <center>These are prices.</center>
+      </h1>
+      <Footer />
+    </>
+  );
+};
 
 export default Pricing;

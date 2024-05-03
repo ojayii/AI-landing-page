@@ -1,7 +1,9 @@
 const GetDemo = () => {
     return (
         <>
-            <h1>GETDEMO</h1>
+            <h1>
+                <center>GETDEMO</center>
+            </h1>
         </>
     )
 }

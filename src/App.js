@@ -1,6 +1,7 @@
 import testImg from "./testImg.svg";
 import "./styles/App.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import GetDemo from "./pages/GetDemo";
@@ -12,7 +13,7 @@ function App() {
     <div className='App'>
       {/* <img src={testImg}/> */}
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route
             path='/'
@@ -31,6 +32,7 @@ function App() {
             element={<Error />}
           />
         </Routes>
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
