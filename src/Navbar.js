@@ -1,6 +1,6 @@
 import "./styles/Navbar.css";
 import { Link } from "react-router-dom";
-import testImg from "./testImg.svg";
+import testImg from "./images/testImg.svg";
 
 const Navbar = () => {
   return (
@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
       <Link
         to='/getDemo'
-        className='navbar__get-demo-btn'>
+        className='navbar__get-demo btn'>
         Get a Demo
       </Link>
       {/* <span className='navbar__get-demo-btn'></span> */}

@@ -1,9 +1,10 @@
 .navbar {
     width: 100%;
-    min-height: 4rem;
+    min-height: 65px;
     background-color: var(--nav-bg-color);
     justify-content: space-between;
     padding-inline: 5%;
+    font-size: 0.86rem;
 }
 
 .navbar, .navbar__nav-links, .navbar__logo-container {
@@ -52,12 +53,8 @@
     
 }
 
-.navbar__get-demo-btn {
-    color: white;
-    text-decoration: none;
-    background-color: blueviolet;
-    border-radius: 10px;
-    padding: 0.6rem 1.1rem;
+.navbar__get-demo {
+    background-color: #9977D4;
 }
 
 @media(max-width: 64em) {

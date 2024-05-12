@@ -1,15 +1,13 @@
 import Navbar from '../Navbar'
+import Header from '../components/Header'
 import Footer from '../Footer'
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <main>
-        <h1>
-          <center>HOME</center>
-        </h1>
-      </main>
+      <Header/>
+      <main></main>
       <Footer />
     </>
   );

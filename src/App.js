@@ -1,4 +1,4 @@
-import testImg from "./testImg.svg";
+import testImg from "./images/testImg.svg";
 import "./styles/App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";

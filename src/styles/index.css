@@ -1,5 +1,6 @@
 :root {
-  --nav-bg-color: black;
+  --nav-bg-color: #121212;
+  --body-bg-color: #1B1E23;
 }
 
 body {
@@ -10,13 +11,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  background-color: var(--body-bg-color);
+  color: white;
+  font-size: 100%;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .flex {
@@ -26,4 +30,15 @@ body {
 .flex-centered {
   align-items: center;
   justify-content: center;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
 }
