@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/ada-landing-page/static/css/main.fe8071ea.css",
-    "main.js": "/ada-landing-page/static/js/main.0b4897a2.js",
+    "main.css": "/ada-landing-page/static/css/main.824f9cf0.css",
+    "main.js": "/ada-landing-page/static/js/main.8ca78159.js",
     "static/js/488.d3df12ae.chunk.js": "/ada-landing-page/static/js/488.d3df12ae.chunk.js",
     "static/media/header_herobg.svg": "/ada-landing-page/static/media/header_herobg.f1b3f031ab75a2bea1ae0e304aa7a2bd.svg",
+    "static/media/logo.svg": "/ada-landing-page/static/media/logo.c253f93153f6d2350907e45d99d009b7.svg",
     "static/media/testImg.svg": "/ada-landing-page/static/media/testImg.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/header_bgvector.svg": "/ada-landing-page/static/media/header_bgvector.ec291358b5e6b614278c85caabba2a38.svg",
     "index.html": "/ada-landing-page/index.html",
-    "main.fe8071ea.css.map": "/ada-landing-page/static/css/main.fe8071ea.css.map",
-    "main.0b4897a2.js.map": "/ada-landing-page/static/js/main.0b4897a2.js.map",
+    "static/media/chevron.svg": "/ada-landing-page/static/media/chevron.0c0307f2ef45efbbc46e7911e210a464.svg",
+    "main.824f9cf0.css.map": "/ada-landing-page/static/css/main.824f9cf0.css.map",
+    "main.8ca78159.js.map": "/ada-landing-page/static/js/main.8ca78159.js.map",
     "488.d3df12ae.chunk.js.map": "/ada-landing-page/static/js/488.d3df12ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe8071ea.css",
-    "static/js/main.0b4897a2.js"
+    "static/css/main.824f9cf0.css",
+    "static/js/main.8ca78159.js"
   ]
 }
