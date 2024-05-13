@@ -49,6 +49,10 @@
     font-family: inherit;
 }
 
+.nav-links__link:hover {
+    color: #9977D4;
+}
+
 .nav-links__link[type='button'] {
     
 }
@@ -89,7 +93,7 @@
         padding-left: 0;
     }
 
-    .navbar__get-demo-btn{
+    .navbar__get-demo{
         width: 100%;
         padding-block: 1rem;
         text-align: center;
