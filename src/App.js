@@ -1,7 +1,7 @@
 import testImg from "./images/testImg.svg";
 import "./styles/App.css";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import GetDemo from "./pages/GetDemo";

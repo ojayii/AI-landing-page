@@ -61,7 +61,7 @@
     background-color: #9977D4;
 }
 
-@media(max-width: 64em) {
+@media(max-width: 47.8em) {
 
     .navbar {
         flex-direction: column;

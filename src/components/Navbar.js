@@ -1,18 +1,20 @@
-import "./styles/Navbar.css";
+import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
-import testImg from "./images/testImg.svg";
-import logo from "./images/logo.svg";
-import Dropdown from "./components/Dropdown";
+import testImg from "../images/testImg.svg";
+import logo from "../images/logo.svg";
+import Dropdown from "./Dropdown";
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <div className='navbar__logo-container'>
+      <a
+        href=''
+        className='navbar__logo-container'>
         <img
           src={logo}
           alt=''
         />
-      </div>
+      </a>
       <div className='navbar__nav-links '>
         <Link
           to='/pricing'
@@ -23,28 +25,29 @@ const Navbar = () => {
         <Dropdown
           title={"Platform"}
           content={[
-            { src: "", title: "Testing" },
-            { src: "", title: "Platform" },
-            { src: "", title: "Elements" },
+            { href: "", title: "Testing" },
+            { href: "", title: "Platform" },
+            { href: "", title: "Elements" },
           ]}
         />
         <Dropdown
           title={"Solutions"}
           content={[
-            { src: "", title: "Computed" },
-            { src: "", title: "Testing" },
-            { src: "", title: "Learn more" },
-            { src: "", title: "Learn more" },
+            { href: "", title: "Computed" },
+            { href: "", title: "Testing" },
+            { href: "", title: "Learn more" },
+            { href: "", title: "Learn more" },
           ]}
         />
         <Dropdown
           title={"Resources"}
           content={[
-            { src: "", title: "Learn more" },
-            { src: "", title: "Testing" },
-            { src: "", title: "Resources" },
-            { src: "", title: "Styles" },
-            { src: "", title: "Layout" },
+            { href: "", title: "Learn more" },
+            { href: "", title: "Testing" },
+            { href: "", title: "Resources" },
+            { href: "", title: "Styles" },
+            { href: "", title: "Layout" },
+            { href: "logo.svg", title: "Download" },
           ]}
         />
         {/* <div className='nav-links__menu-wrapper'>

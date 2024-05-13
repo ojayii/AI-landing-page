@@ -18,7 +18,7 @@ const Dropdown = ({ title, content }) => {
         {content.map((item) => {
           return (
             <li key={1}>
-              <a href={item.src}>
+              <a href={item.href}>
                 {/* <img src="images/icon-todo.svg" alt="todo icon"/> */}
                 <p>{item.title}</p>
               </a>
