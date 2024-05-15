@@ -12,11 +12,11 @@ const Footer = () => {
       <div className='footer__col1'>
         <Link
           className='footer__col1__logo-container'
-          to='/home'>
+          to=''>
           <img src={logo} />
         </Link>
         <div className='footer__col1__socials'>
-          <Link to='/home'>
+          <Link to=''>
             <img src={linkedinIcon} />
           </Link>
           <Link to=''>
@@ -31,30 +31,30 @@ const Footer = () => {
         <div className='footer__col2__content'>
           <p className='footer__col2__content__heading'>Industries</p>
           <div className='footer__col2__content__links'>
-            <Link to='/home'>Pricing</Link>
-            <Link to='/home'>Website Monitoring</Link>
-            <Link to='/home'>Newsletter Monitoring</Link>
-            <Link to='/home'>Blog</Link>
+            <Link to=''>Pricing</Link>
+            <Link to=''>Website Monitoring</Link>
+            <Link to=''>Newsletter Monitoring</Link>
+            <Link to=''>Blog</Link>
           </div>
         </div>
         <div className='footer__col2__content'>
           <p className='footer__col2__content__heading'>Inspire</p>
           <div className='footer__col2__content__links'>
-            <Link to='/home'>Notion Competitor Monitoring Template</Link>
-            <Link to='/home'>Competitor Analysis Prompts</Link>
-            <Link to='/home'>Figma Competitor SWOT Template</Link>
-            <Link to='/home'>Best Software Tools</Link>
+            <Link to=''>Notion Competitor Monitoring Template</Link>
+            <Link to=''>Competitor Analysis Prompts</Link>
+            <Link to=''>Figma Competitor SWOT Template</Link>
+            <Link to=''>Best Software Tools</Link>
           </div>
         </div>
         <div className='footer__col2__content'>
           <p className='footer__col2__content__heading'>Legal</p>
           <div className='footer__col2__content__links'>
-            <Link to='/home'>About Us</Link>
-            <Link to='/home'>Contact</Link>
-            <Link to='/home'>FAQ</Link>
-            <Link to='/home'>Privacy Policy</Link>
-            <Link to='/home'>Terms and Conditions</Link>
-            <Link to='/home'>Imprint</Link>
+            <Link to=''>About Us</Link>
+            <Link to=''>Contact</Link>
+            <Link to=''>FAQ</Link>
+            <Link to=''>Privacy Policy</Link>
+            <Link to=''>Terms and Conditions</Link>
+            <Link to=''>Imprint</Link>
           </div>
         </div>
       </div>

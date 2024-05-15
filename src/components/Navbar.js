@@ -8,16 +8,16 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <a
-        href=''
+        href='#'
         className='navbar__logo-container'>
         <img
           src={logo}
-          alt=''
+          alt='Ada logo'
         />
       </a>
       <div className='navbar__nav-links '>
         <Link
-          to='/pricing'
+          to='/ada-landing-page/pricing'
           className='nav-links__link'>
           Pricing
         </Link>
@@ -25,28 +25,28 @@ const Navbar = () => {
         <Dropdown
           title={"Platform"}
           content={[
-            { href: "", title: "Testing" },
-            { href: "", title: "Platform" },
-            { href: "", title: "Elements" },
+            { href: "#", title: "Testing" },
+            { href: "#", title: "Platform" },
+            { href: "#", title: "Elements" },
           ]}
         />
         <Dropdown
           title={"Solutions"}
           content={[
-            { href: "", title: "Computed" },
-            { href: "", title: "Testing" },
-            { href: "", title: "Learn more" },
-            { href: "", title: "Learn more" },
+            { href: "#", title: "Computed" },
+            { href: "#", title: "Testing" },
+            { href: "#", title: "Learn more" },
+            { href: "#", title: "Learn more" },
           ]}
         />
         <Dropdown
           title={"Resources"}
           content={[
-            { href: "", title: "Learn more" },
-            { href: "", title: "Testing" },
-            { href: "", title: "Resources" },
-            { href: "", title: "Styles" },
-            { href: "", title: "Layout" },
+            { href: "#", title: "Learn more" },
+            { href: "#", title: "Testing" },
+            { href: "#", title: "Resources" },
+            { href: "#", title: "Styles" },
+            { href: "#", title: "Layout" },
             { href: "logo.svg", title: "Download" },
           ]}
         />
@@ -79,7 +79,7 @@ const Navbar = () => {
         </div> */}
       </div>
       <Link
-        to='/getDemo'
+        to='/ada-landing-page/getDemo'
         className='navbar__get-demo btn'>
         Get a Demo
       </Link>

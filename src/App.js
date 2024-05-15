@@ -16,15 +16,15 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route
-            path='/'
+            path='/ada-landing-page'
             element={<Home />}
           />
           <Route
-            path='/pricing'
+            path='/ada-landing-page/pricing'
             element={<Pricing />}
           />
           <Route
-            path='/getdemo'
+            path='/ada-landing-page/getdemo'
             element={<GetDemo />}
           />
           <Route

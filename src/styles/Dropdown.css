@@ -50,7 +50,7 @@
     top: 3rem;
     right: 0;
     padding: clamp(1rem, 1.444vw, 1.3rem);
-    gap: 12px;
+    /* gap: 12px; */
     border-radius: 10px;
     background-color: var(--nav-bg-color);
     /* box-shadow: 0 0 clamp(1rem, 2.222vw, 2rem) rgb(216, 206, 206); */
@@ -70,8 +70,10 @@
 
 .menu li a {
     display: flex;
+    align-items: center;
     gap: 12%;
     width: auto;
+    height: 28px;
     text-decoration: none;
     color: white;
 }
