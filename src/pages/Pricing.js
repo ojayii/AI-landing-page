@@ -1,12 +1,16 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Pricing = () => {
   return (
     <>
       <Navbar />
       <h1>
-        <center>These are prices.</center>
+        <br />
+        <br />
+        <center>PRICING PAGE</center>
+        <br />
+        <br />
       </h1>
       <Footer />
     </>

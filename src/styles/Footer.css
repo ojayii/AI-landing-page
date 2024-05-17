@@ -23,7 +23,10 @@
 }
 
 .footer__col1__socials {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer__col2 {

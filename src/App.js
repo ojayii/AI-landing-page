@@ -28,7 +28,7 @@ function App() {
             element={<GetDemo />}
           />
           <Route
-            path='*'
+            path='/ada-landing-page/*'
             element={<Error />}
           />
         </Routes>
