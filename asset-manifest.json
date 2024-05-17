@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ada-landing-page/static/css/main.832452b8.css",
-    "main.js": "/ada-landing-page/static/js/main.4456bafa.js",
+    "main.css": "/ada-landing-page/static/css/main.95c69aa0.css",
+    "main.js": "/ada-landing-page/static/js/main.8e063f6c.js",
     "static/js/488.d3df12ae.chunk.js": "/ada-landing-page/static/js/488.d3df12ae.chunk.js",
     "static/media/header_herobg.svg": "/ada-landing-page/static/media/header_herobg.f1b3f031ab75a2bea1ae0e304aa7a2bd.svg",
     "static/media/logo.svg": "/ada-landing-page/static/media/logo.c253f93153f6d2350907e45d99d009b7.svg",
@@ -11,13 +11,15 @@
     "static/media/header_bgvector.svg": "/ada-landing-page/static/media/header_bgvector.ec291358b5e6b614278c85caabba2a38.svg",
     "static/media/facebookIcon.svg": "/ada-landing-page/static/media/facebookIcon.f026d37d9c2740be0b45e5db0b9fb8ca.svg",
     "index.html": "/ada-landing-page/index.html",
+    "static/media/iconCloseMenu.svg": "/ada-landing-page/static/media/iconCloseMenu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
     "static/media/chevron.svg": "/ada-landing-page/static/media/chevron.0c0307f2ef45efbbc46e7911e210a464.svg",
-    "main.832452b8.css.map": "/ada-landing-page/static/css/main.832452b8.css.map",
-    "main.4456bafa.js.map": "/ada-landing-page/static/js/main.4456bafa.js.map",
+    "static/media/iconMenu.svg": "/ada-landing-page/static/media/iconMenu.863803c904916606b7a1998b3c5736aa.svg",
+    "main.95c69aa0.css.map": "/ada-landing-page/static/css/main.95c69aa0.css.map",
+    "main.8e063f6c.js.map": "/ada-landing-page/static/js/main.8e063f6c.js.map",
     "488.d3df12ae.chunk.js.map": "/ada-landing-page/static/js/488.d3df12ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.832452b8.css",
-    "static/js/main.4456bafa.js"
+    "static/css/main.95c69aa0.css",
+    "static/js/main.8e063f6c.js"
   ]
 }
