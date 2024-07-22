@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ada-landing-page/static/css/main.3ff19a6a.css",
+    "main.css": "/ada-landing-page/static/css/main.5a20815a.css",
     "main.js": "/ada-landing-page/static/js/main.8e063f6c.js",
     "static/js/488.d3df12ae.chunk.js": "/ada-landing-page/static/js/488.d3df12ae.chunk.js",
     "static/media/header_herobg.svg": "/ada-landing-page/static/media/header_herobg.f1b3f031ab75a2bea1ae0e304aa7a2bd.svg",
@@ -14,12 +14,12 @@
     "static/media/iconCloseMenu.svg": "/ada-landing-page/static/media/iconCloseMenu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
     "static/media/chevron.svg": "/ada-landing-page/static/media/chevron.0c0307f2ef45efbbc46e7911e210a464.svg",
     "static/media/iconMenu.svg": "/ada-landing-page/static/media/iconMenu.863803c904916606b7a1998b3c5736aa.svg",
-    "main.3ff19a6a.css.map": "/ada-landing-page/static/css/main.3ff19a6a.css.map",
+    "main.5a20815a.css.map": "/ada-landing-page/static/css/main.5a20815a.css.map",
     "main.8e063f6c.js.map": "/ada-landing-page/static/js/main.8e063f6c.js.map",
     "488.d3df12ae.chunk.js.map": "/ada-landing-page/static/js/488.d3df12ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ff19a6a.css",
+    "static/css/main.5a20815a.css",
     "static/js/main.8e063f6c.js"
   ]
 }
