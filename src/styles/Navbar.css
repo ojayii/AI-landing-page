@@ -142,7 +142,9 @@ nav {
     input.nav_toggle:checked~.navbar__nav-links {
         /* display: block; */
         /* transform: translateX(0%); */
-        right: 20vw;
+        /* right: 20vw; */
+        animation: nav-slide 350ms ease-out;
+        animation-fill-mode: forwards;
     }
 
     .navbar__logo-container {
@@ -172,10 +174,28 @@ nav {
         z-index: 4;
         position: fixed;
         top: 0;
-        right: 150vw;
+        left: 150vw;
         overflow-y: scroll;
         scrollbar-width: none;
-        transition: right 350ms ease-in-out;
+        /* transition: right 350ms ease-in-out; */
+    }
+
+    @keyframes nav-slide {
+        0% {
+            left: 100vw;
+        }
+
+        60% {
+            left: 0vw;
+        }
+
+        85% {
+            left: 8vw;
+        }
+
+        100% {
+            left: 0vw;
+        }
     }
 
     .nav-links__link{
