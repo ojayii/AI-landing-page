@@ -1,0 +1,115 @@
+.main-content {
+    padding: clamp(1rem, 6.944vw, 6.25rem) 7% 0 7%;
+}
+
+.main-content__section-one {
+    text-align: left;
+    margin-bottom:  clamp(1.5rem, 4.444vw, 4rem);
+}
+
+.main-content__section-one>h2 {
+    font-size: clamp(2rem, 3.333vw, 3rem);
+    line-height: clamp(2.4rem, 3.868vw, 3.481rem);
+    margin-bottom: 20px;
+    max-width: 725px;
+    /* width: 60%; */
+    /* min-width: 300px; */
+}
+
+.main-content__section-one>p {
+    font-size: clamp(1rem, 1.25vw, 1.125);
+    line-height: 1.663;
+    margin-bottom: 20px;
+    max-width: 725px;
+    /* width: 60%; */
+    /* min-width: 300px; */
+}
+
+.main-content__section-one__links {
+    margin: 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.main-content__section-one>img {
+    max-width: 100%;
+}
+
+.main-content__achievements {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    /* flex-flow: row wrap; */
+    margin-bottom: 6rem;
+}
+
+.main-content__achievements__box {
+    text-align: center;
+    /* width: 277.06px; */
+    /* min-width: 300px; */
+    width: 23%;
+    /* flex-basis: 23%; */
+    flex-grow: 0;
+    flex-shrink: 1;
+    /* height: 192.28px; */
+    padding: 39px 32px;
+
+    background: linear-gradient(135deg, rgba(27, 30, 35, 0.5) 0%, rgba(22, 25, 29, 0.5) 100%);
+    border: 0.96875px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 19.375px 24.2188px -4.84375px rgba(0, 0, 0, 0.1), 0px 7.75px 9.6875px -5.8125px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8125px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-content__achievements__box>img {
+    width: max-content;
+}
+
+.main-content__achievements__box>p {
+    font-weight: 400;
+}
+
+.main-content__achievements__box>p:nth-of-type(1) {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+@media(max-width: 47.8em) {
+
+    .main-content__section-one__links {
+        margin-bottom: 1.5rem;
+    }
+    .main-content__achievements_container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-content__achievements {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 4vw;
+        animation: slide-loop 8s linear infinite;
+    }
+
+    @keyframes slide-loop {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-900px + 6vw));
+        }
+    }
+
+    .main-content__achievements__box {
+        min-width: 300px;
+    }
+
+}

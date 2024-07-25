@@ -1,12 +1,12 @@
-import testImg from "./images/testImg.svg";
+// import testImg from "./images/testImg.svg";
 import "./styles/App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import GetDemo from "./pages/GetDemo";
 import Error from "./pages/Error";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

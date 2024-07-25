@@ -1,9 +1,9 @@
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
-import testImg from "../images/testImg.svg";
+// import testImg from "../images/testImg.svg";
 import logo from "../images/logo.svg";
-import iconMenu from "../images/iconMenu.svg";
-import iconCloseMenu from "../images/iconCloseMenu.svg";
+// import iconMenu from "../images/iconMenu.svg";
+// import iconCloseMenu from "../images/iconCloseMenu.svg";
 import Dropdown from "./Dropdown";
 import { useState } from "react";
 

@@ -117,6 +117,12 @@ nav {
         background-position: center;
         transition: background 150ms ease-in-out;
         z-index: 5;
+        filter: brightness(10);
+    }
+
+    input.nav_toggle:focus~span, 
+    input.nav_toggle:hover~span {
+        filter: brightness(20);
     }
 
     input.nav_toggle:checked {
