@@ -79,7 +79,7 @@ const Navbar = () => {
         />
         <Link
           to='/ada-landing-page/getDemo'
-          className='navlinks__get-demo btn'
+          className='navlinks__get-demo btn btn__bg-purple'
           // className='navbar__get-demo btn'
         >
           Get a Demo

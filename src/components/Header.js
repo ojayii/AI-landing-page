@@ -15,7 +15,7 @@ const Header = () => {
       <div className='header__btn-container'>
         <Link
           to=''
-          className='btn'>
+          className='btn btn__bg-purple'>
           See Ada in action
         </Link>
         <Link

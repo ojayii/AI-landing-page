@@ -55,7 +55,7 @@ nav {
     /* height: 100%; */
     background-color: transparent;
     color: white;
-    padding: 1rem 2.5rem;
+    padding: 1rem clamp(1.2rem, 2.77vw, 2.5rem);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 400;
@@ -71,8 +71,8 @@ nav {
 }
 
 .navlinks__get-demo {
-    background-color: #9977D4;
-    font-size: 1rem;
+    /* background-color: #9977D4;
+    font-size: 1rem; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -181,6 +181,7 @@ nav {
         /* display: none; */
         overflow-y: scroll;
         scrollbar-width: none;
+        box-shadow: 20vw 0 0 #00000078;
     }
 
     .navbar__nav-links::-webkit-scrollbar {

@@ -35,8 +35,8 @@
 }
 
 .header__btn-container>a:nth-child(1) {
-    background-color: #9977D4;
-    border: 2px solid #9977D4;
+    /* background-color: #9977D4;
+    border: 2px solid #9977D4; */
     /* min-width: max-content; */
     /* width: 50%; */
 }
@@ -44,7 +44,7 @@
 .header__btn-container>a:nth-child(2) {
     /* min-width: max-content; */
     /* width: 50%; */
-    border: 2px solid #9977D4;
+    /* border: 2px solid #9977D4; */
 }
 
 .header__hero-img {
