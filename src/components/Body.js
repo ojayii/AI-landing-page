@@ -19,8 +19,8 @@ representing your business</h2>
 your existing business systems to resolve complex customer
 inquiries in record time.</p>
                 <div class="main-content__section-one__links header__btn-container">
-                    <a href='' class="btn btn__bg-purple" href="/ada-landing-page">See Ada in action</a>
-                    <a href='' class="btn" href="/ada-landing-page">Learn more</a>
+                    <a href='' class="btn btn__bg-purple">See Ada in action</a>
+                    <a href='' class="btn">Learn more</a>
                 </div>
                 <img src={marchitecture_web}/>
             </section>
