@@ -15,6 +15,9 @@ body {
   background-color: var(--body-bg-color);
   color: white;
   font-size: 100%;
+  overflow-x: hidden;
+  max-width: 120rem;
+  margin-inline: auto;
 }
 
 * {
