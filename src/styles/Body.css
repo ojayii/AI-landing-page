@@ -4,13 +4,13 @@
 
 .main-content__section-one {
     text-align: left;
-    margin-bottom: clamp(1.5rem, 4.444vw, 4rem);
+    margin-bottom: clamp(2rem, 4.444vw, 4rem);
 }
 
 .main-content__section-one>h2 {
     font-size: clamp(2rem, 3.333vw, 3rem);
     line-height: clamp(2.4rem, 3.868vw, 3.481rem);
-    margin-bottom: 35px;
+    margin-bottom: clamp(0.9rem, 2.4vw, 35px);
     max-width: 725px;
     /* width: 60%; */
     /* min-width: 300px; */
@@ -19,8 +19,9 @@
 .main-content__section-one>p {
     font-size: clamp(1rem, 1.25vw, 1.125);
     line-height: 1.663;
-    margin-bottom: 35px;
+    margin-bottom: clamp(1.5rem, 2.4vw, 35px);
     max-width: 480px;
+    font-weight: 300;
     /* width: 60%; */
     /* min-width: 300px; */
 }
@@ -29,6 +30,7 @@
     margin: 0;
     width: 100%;
     justify-content: flex-start;
+    /* margin-bottom: ; */
 }
 
 .main-content__section-one>img {
@@ -101,6 +103,7 @@
 .main-content__section-two__right>p {
     margin-bottom: 30px;
     max-width: 540px;
+    font-weight: 300;
 }
 
 .main-content__bottom__row1>h4>span:nth-of-type(1) {
@@ -137,7 +140,7 @@
 }
 
 .main-content__bottom__row1__grid-container>div:nth-child(1) {
-    display: grid;
+    /* display: grid; */
 }
 
 .main-content__bottom__row1__grid-container__box:nth-last-of-type(2) {
@@ -151,12 +154,13 @@
 }
 
 .main-content__bottom__row1__grid-container__box {
-    padding: clamp(1rem, 3.6vw, 52.72px) clamp(1rem, 2.8vw, 41px);
+    padding: clamp(2rem, 3.6vw, 52.72px) clamp(2rem, 2.8vw, 41px);
     background: linear-gradient(135deg, rgba(27, 30, 35, 0.5) 0%, rgba(22, 25, 29, 0.5) 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(6px);
     border-radius: 10px;
     text-align: left;
+    flex-grow: 1;
 }
 
 .main-content__bottom__row1__grid-container__box img {
@@ -181,7 +185,7 @@
 
 .grid-one>span:nth-of-type(2),
 .grid-two>span:nth-of-type(1) {
-    font-size: 3rem;
+    font-size: clamp(2rem, 3.33vw, 3rem);
     font-weight: 700;
     line-height: 1;
     margin-bottom: 4px;
@@ -193,18 +197,20 @@
 
 .main-content__bottom__row1__grid-container__box:nth-child(1)>span:nth-of-type(3),
 .main-content__bottom__row1__grid-container__box:nth-child(2)>span:nth-of-type(2) {
-    font-size: clamp(1.3rem, 1.6vw, 1.5rem);
+    font-size: clamp(1.15rem, 1.6vw, 1.5rem);
+    font-weight: 300;
 }
 
 .main-content__bottom__row1__grid-container__box:nth-child(3)>span,
 .main-content__bottom__row1__grid-container__box:nth-child(4),
 .main-content__bottom__row1__grid-container__box:nth-child(5) {
     /* display: flex; */
-    vertical-align: center;
+    /* vertical-align: center; */
     margin-block: auto;
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    font-weight: 300;
 }
 
 .main-content__bottom__row1__grid-container__box:nth-child(3)>span:nth-of-type(1) {}
@@ -265,7 +271,7 @@
     justify-content: center;
     align-items: flex-start; */
     /* padding: 116.85px 41px 116.86px; */
-    padding: 41px;
+    padding: clamp(2rem, 2.8vw, 41px);
 
     /* width: 389.33px; */
     min-width: 300px;
@@ -290,8 +296,8 @@
 }
 
 .main-content__bottom__row3__left>h6 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    margin-bottom: clamp(1.5rem, 2.2vw, 2rem);
 }
 
 .main-content__bottom__row3__right {
@@ -309,9 +315,13 @@
     flex-direction: column;
     gap: 1rem;
     font-weight: 300;
-    width: 28.5%;
+    width: 20%;
     min-width: 100px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+}
+
+.main-content__bottom__row3__right>.col1>img {
+    max-width: 300px;
 }
 
 .main-content__bottom__row3__right>.col1 span:nth-child(1) {
@@ -326,14 +336,14 @@
     width: 68.5%;
     min-width: 100px;
     flex-grow: 1;
-    gap: min(1.5rem);
+    gap: min(1rem);
 }
 
 .main-content__bottom__row3__right>.col2>a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 12px;
+    padding-top: 1rem;
     /* margin-bottom: 2rem; */
     gap: 10px;
     color: #9977D4;
@@ -360,7 +370,7 @@
 @media(max-width: 47.8em) {
 
     .main-content__section-one__links {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .main-content__achievements_container {

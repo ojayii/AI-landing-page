@@ -86,6 +86,7 @@
     }
 
     .footer__col2__content {
-        min-width: 172px;
+        /* min-width: 172px; */
+        min-width: 300px;
     }
 }
