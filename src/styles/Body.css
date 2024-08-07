@@ -37,17 +37,51 @@
     max-width: 100%;
 }
 
+.main-content__achievements_container {
+    width: 100%;
+    overflow: hidden;
+    position: relative; /* Ensure the container cuts off overflow */
+
+    /* margin: auto; */
+    /* width: 960px; */
+
+    &::before,
+	&::after {
+		content: "";
+		height: 100%;
+		position: absolute;
+		width: 170px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+}
+
 .main-content__achievements {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     margin-bottom: 6rem;
+
+    /* transition: transform 0.5s ease;  */
+
+    min-width: calc(200px * 4);
 }
 
 .main-content__achievements__box {
     text-align: center;
     min-width: 200px;
+    /* min-width: 250px; */
     width: 23%;
     flex-grow: 1;
     flex-shrink: ;
@@ -58,10 +92,19 @@
     box-shadow: 0px 19.375px 24.2188px -4.84375px rgba(0, 0, 0, 0.1), 0px 7.75px 9.6875px -5.8125px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.8125px);
     border-radius: 12px;
+
+    /* flex-shrink: 0;  */
 }
 
-.main-content__achievements__box>img {
-    width: max-content;
+.main-content__achievements__box>.trophy-img {
+    background: url(../images/SVG_margin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    width: 100%;
 }
 
 .main-content__achievements__box>p {
@@ -239,6 +282,7 @@
     background: radial-gradient(80% 50% at 50% 50%, rgba(54, 62, 74, 0.5) 0%, #1B1E23 100%);
     text-align: center;
     overflow: hidden;
+    z-index: 1;
 }
 
 .main-content__bottom__row2>img {
@@ -250,6 +294,7 @@
     /* max-height: 100%; */
     top: 50%;
     transform: translateY(-50%);
+    z-index: -1;
 }
 
 .main-content__bottom__row2>h5 {
@@ -350,6 +395,10 @@
     text-decoration: none;
 }
 
+.main-content__bottom__row3__right>.col2>a:hover {
+    text-decoration: underline;
+}
+
 .main-content__bottom__row3__right>.col2>p {
     font-weight: 300;
     /* margin-bottom: 2.5rem; */
@@ -379,7 +428,7 @@
     }
 
     .main-content__achievements {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         justify-content: flex-start;
         gap: 4vw;
         animation: slide-loop 10s linear infinite;
@@ -391,7 +440,7 @@
         }
 
         100% {
-            transform: translateX(calc(-900px + 6vw));
+            transform: translateX(calc(-200px * 2));
         }
     }
 

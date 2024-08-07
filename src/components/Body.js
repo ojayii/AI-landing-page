@@ -28,23 +28,24 @@ inquiries in record time.</p>
             <div className='main-content__achievements_container'>
                 <div className='main-content__achievements'>
                     <div className='main-content__achievements__box '>
-                        <img src={SVG_margin}/>
+                        {/* <img src={SVG_margin}/> */}
+                        <div className='trophy-img'/>
                         <p>Forrester</p>
                         <p>Conversational AI Wave
     Challenger</p>
                     </div>
                     <div className='main-content__achievements__box '>
-                        <img src={SVG_margin}/>
+                        <div className='trophy-img'/>
                         <p>G2</p>
                         <p>High Performer Fall 2023</p>
                     </div>
                     <div className='main-content__achievements__box '>
-                        <img src={SVG_margin}/>
+                        <div className='trophy-img'/>
                         <p>ITRG</p>
                         <p>Top Rated 2023</p>
                     </div>
                     <div className='main-content__achievements__box '>
-                        <img src={SVG_margin}/>
+                        <div className='trophy-img'/>
                         <p>Globe & Mail</p>
                         <p>Top Growing Companies</p>
                     </div>
