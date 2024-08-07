@@ -1,6 +1,5 @@
 import '../styles/Body.css';
 import marchitecture_web from '../images/marchitecture_web.png.svg';
-import SVG_margin from '../images/SVG_margin.svg';
 import picture_voice_web from '../images/picture_voice_web.png.svg';
 import tango from '../images/tango.svg';
 import digicel from '../images/digicel.svg';
@@ -28,7 +27,6 @@ inquiries in record time.</p>
             <div className='main-content__achievements_container'>
                 <div className='main-content__achievements'>
                     <div className='main-content__achievements__box '>
-                        {/* <img src={SVG_margin}/> */}
                         <div className='trophy-img'/>
                         <p>Forrester</p>
                         <p>Conversational AI Wave

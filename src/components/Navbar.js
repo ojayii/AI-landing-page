@@ -25,7 +25,7 @@ const Navbar = () => {
       <span className='nav_toggle'></span>
       {isMobileView && <></>}
       <Link
-        to='/ada-landing-page/'
+        to='/'
         className='navbar__logo-container'>
         <img
           src={logo}
@@ -44,7 +44,7 @@ const Navbar = () => {
         className='navbar__nav-links '
         style={{}}>
         <Link
-          to='/ada-landing-page/pricing'
+          to='/pricing'
           className='nav-links__link'>
           Pricing
         </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
           ]}
         />
         <Link
-          to='/ada-landing-page/getDemo'
+          to='/getDemo'
           className='navlinks__get-demo btn btn__bg-purple'
           // className='navbar__get-demo btn'
         >
