@@ -19,8 +19,8 @@ representing your business</h2>
 your existing business systems to resolve complex customer
 inquiries in record time.</p>
                 <div class="main-content__section-one__links header__btn-container">
-                    <a class="btn btn__bg-purple" href="/ada-landing-page">See Ada in action</a>
-                    <a class="btn" href="/ada-landing-page">Learn more</a>
+                    <a href='' class="btn btn__bg-purple" href="/ada-landing-page">See Ada in action</a>
+                    <a href='' class="btn" href="/ada-landing-page">Learn more</a>
                 </div>
                 <img src={marchitecture_web}/>
             </section>
@@ -96,14 +96,14 @@ inquiries in record time.</p>
                     <img src={mc_row3_vector}/>
                     <h5>Automate your customer
 service with Ada</h5>
-                    <a className='btn btn__bg-purple'>Request a Demo</a>
+                    <a href='' className='btn btn__bg-purple'>Request a Demo</a>
                 </section>
                 <section className='main-content__bottom__row3'>
                     <div className='main-content__bottom__row3__left'>
                         <h6>AI-powered
 automation built
 for CX teams</h6>
-                        <a className='btn btn__bg-purple'>View all Case Studies</a>
+                        <a href='' className='btn btn__bg-purple'>View all Case Studies</a>
                     </div>
                     <div className='main-content__bottom__row3__right'>
                         <div className='col1'>
