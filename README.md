@@ -9,7 +9,7 @@ This is the development of an AI customer support services landing page, which I
 - [Author](#author)
 
 ### Links
-- Live site URL: https://ojayii.github.io/ada-landing-page/
+- Live site URL: https://ojayii.github.io/ada/
 <!-- - Source URL: N/A -->
 
 <!-- 
